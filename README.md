@@ -1,39 +1,57 @@
-# 服创项目
+# Service Innovation Project
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+## Introduction
+This repository contains various projects and implementations related to service innovation, including explanations of algorithms and reinforcement learning techniques.
 
-#### 软件架构
-软件架构说明
+## Directory Structure
+- **explaining_algorithm/**: Contains explanations and implementations of various algorithms.
+- **reinforcement_learning/**: Contains subdirectories for different reinforcement learning techniques:
+  - **DQN/**: Implementation of Deep Q-Network.
+  - **PPO/**: Implementation of Proximal Policy Optimization.
+  - **SQN/**: Implementation of Soft Q-Network.
 
+## Installation
+To set up this project locally, follow these steps:
 
-#### 安装教程
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/YinheeeChen/service-innovation-project-master.git
+   cd service-innovation-project-master
+   ```
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+2. Create a virtual environment and activate it:
+   ```sh
+   python -m venv env
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
+   ```
 
-#### 使用说明
+3. Install the required dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## Usage
+### Explaining Algorithm
+Navigate to the `explaining_algorithm` directory to find various algorithm explanations and their implementations. Run the respective Python scripts to see the algorithms in action.
 
-#### 参与贡献
+### Reinforcement Learning
+Navigate to the `reinforcement_learning` directory and choose the desired subdirectory (DQN, PPO, SQN) to explore and run the implemented reinforcement learning techniques.
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+#### Example: Running DQN
+1. Navigate to the DQN directory:
+   ```sh
+   cd reinforcement_learning/DQN
+   ```
 
+2. Run the DQN script:
+   ```sh
+   python dqn_main.py
+   ```
 
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## Project Structure
+- **explaining_algorithm/**: Contains various algorithm explanations and implementations.
+- **reinforcement_learning/**: Contains subdirectories for different reinforcement learning techniques.
+  - **DQN/**: Contains the implementation of Deep Q-Network.
+  - **PPO/**: Contains the implementation of Proximal Policy Optimization.
+  - **SQN/**: Contains the implementation of Soft Q-Network.
+- **requirements.txt**: Lists the dependencies required for the project.
